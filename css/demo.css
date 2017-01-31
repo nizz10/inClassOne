@@ -1,0 +1,48 @@
+body {
+  
+}
+
+main {
+  min-height: 450px;
+  padding: 10px;
+  border: 1px solid: red;
+  margin-bottom: 20px;
+}
+
+header {
+
+}
+
+footer {
+  border: 1px solid: red;
+  padding: 10px;
+}
+
+nav {
+  border: 1px solid: red;
+}
+
+nav ul {
+  list-style: none; /*remove the dot*/
+  padding: 10px;  /*10px padding at all sides*/
+
+}
+
+nav ul li {
+  display: inline-block;  /*all next to each other*/
+  width: 33%;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none; /*remove underline*/
+  color: red;
+}
+
+nav ul li a:hover {
+	color: blue;
+}
+
+.image-holder {
+	background: url('');
+}
